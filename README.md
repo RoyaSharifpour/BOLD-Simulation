@@ -8,7 +8,7 @@ A VOI contains 14 voxels (divided to 2 types of structure: SCN and non-SCN voxel
 In summary, following stepes are taken the simulation: 
 1) Simulation of the Light stimuli
 2) Convolution of the light stimuli with a hemodynamic response
-3) Consideration of 2 different betas for a single SCN voxel and all other non-SCN voxels
+3) Consideration of 2 different betas for the single SCN voxel and all other non-SCN voxels
 4) Applying the inherent smmothness of BOLD signal on the betas
 4) Multiplication of the output of convolution by the smoothed betas
 5) Adding white noise to each voxel to make it more realistic.
